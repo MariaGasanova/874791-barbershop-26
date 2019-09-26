@@ -25,17 +25,45 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Средства для ухода</h1>
+    <main class="container">
+        <h1 class="page-title">Средства для ухода</h1>
 
-        <ul>
+        <ul class="breadcrumbs">
             <li><a href="index.html">Главная</a></li>
             <li><a href="catalog.html">Магазин</a></li>
-            <li>Средства для ухода</li>
+            <li class="breacrumbs-current">Средства для ухода</li>
         </ul>
-        <section>
-            <h2>Фильтр товаров</h2>
-            <!--Здесь будет форма-->
+        <section class="filters">
+            <h2 class="visually-hidden">Фильтр товаров</h2>
+            <form class="filter" method="GET" action="https://echo.htmlacademy.ru">
+                <fieldset>
+                    <legend>Производители:</legend>
+                    <ul>
+                        <li class="filter-option">
+                            <input class="visually-hidden filter-input filter-input-checkbox" name="baxter-of-california" checked>Baxter of California»
+                        </li>
+                        <li class="filter-option">
+                            <input class="visually-hidden filter-input filter-input-checkbox" name="mr-natty">Mr Natty
+                        </li>
+                        <li class="filter-option">Suavecito
+                            <input class="visually-hidden filter-input filter-input-checkbox" name="suavecito" checked>
+                        </li>
+                        <li class="filter-option">Malin+Goetz
+                            <input class="visually-hidden filter-input filter-input-checkbox" name="malin-goetz">
+                        </li>
+                        <li class="filter-option">Murray`s
+                            <input class="visually-hidden filter-input filter-input-checkbox" name="murrays">
+                        </li>
+                        <li class="filter-option">American Crew
+                            <input class="visually-hidden filter-input filter-input-checkbox" name="american-crew" checked>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>Группы товаров:</legend>
+                </fieldset>
+
+            </form>
         </section>
         <section>
             <h2>Список средств для ухода</h2>
