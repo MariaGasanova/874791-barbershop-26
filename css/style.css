@@ -44,11 +44,11 @@ a {
     list-style: none;
 }
 
-.features-item {
+.feature-item {
     text-align: center;
 }
 
-.features-item {
+.feature-item h3 {
     font-size: 30px;
     line-height: 42px;
 }
