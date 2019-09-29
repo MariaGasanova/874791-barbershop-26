@@ -175,4 +175,6 @@ a {
 }
 
 .restore:hover,
-.restore:focus {}
+.restore:focus {
+    color: #663d15;
+}
