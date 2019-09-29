@@ -128,3 +128,17 @@ a {
 .social-button {
     color: #ffffff;
 }
+
+.footer-copiright {
+    text-align: center;
+}
+
+.footer-copiright .button:hover,
+.footer-copiright .button:focus {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.modal {
+    color: #ffffff;
+}
